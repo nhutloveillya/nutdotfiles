@@ -3,7 +3,7 @@ sync() {
   rsync -av --progress --include-from='./ls.txt' -r ~/. ~/dotfiles/
 }
 clone() {
-  rsync -av --progress -r ~/dotfiles/config/. ~/.config/
+  rsync -av --progress -r ~/dotfiles/. ~/
 }
 
 helpp() {
@@ -13,8 +13,6 @@ helpp() {
   command:
   -c    --clone : clone du lieu tu dotfiles vao config cua ban
   -s    --sync  : dong bo config cua ban cho dotfiles
-  -gp   --gitpsh: day dotfiles len repo
-  -gc   --gitcl : clone dotfiles tren repo ve
 EOF
 }
 
