@@ -51,3 +51,13 @@ require("lazy").setup({
     },
   },
 })
+
+require("neo-tree").setup({
+  filesystem = {
+    filtered_items = {
+      visible = true, -- Set to true to show hidden files
+      hide_dotfiles = false,
+      hide_gitignored = false, -- Set to false to show gitignored files
+    },
+  },
+})

@@ -1,0 +1,34 @@
+    prefer-no-csd
+    screenshot-path "~/Ảnh/screenshot/Screenshot from %Y-%m-%d %H-%M-%S.png"
+
+    environment {
+        ELECTRON_OZONE_PLATFORM_HINT "auto"
+        QT_QPA_PLATFORM "wayland"
+        QT_QPA_PLATFORMTHEME "gtk3"
+        QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
+        XDG_CURRENT_DESKTOP "niri"
+        XDG_SESSION_TYPE "wayland"
+        XDG_DATA_DIRS "~/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share"
+        XCURSOR_SIZE "64"
+        XCURSOR_THEME "Kafka"
+        GDK_BACKEND "wayland"
+        HYPRCURSOR_THEME "Kafka"
+        HYPRCURSOR_SIZE "64"
+        XCURSOR_THEME "Kafka"
+}
+
+    cursor {
+      xcursor-theme "Kafka"
+      xcursor-size 64    
+      hide-when-typing
+      hide-after-inactive-ms 10000
+}
+
+    debug {
+        // Allows notification actions and window activation from Noctalia.
+        honor-xdg-activation-with-invalid-serial
+}
+
+    hotkey-overlay {
+       skip-at-startup
+}

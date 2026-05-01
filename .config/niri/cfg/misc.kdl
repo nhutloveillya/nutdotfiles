@@ -9,18 +9,30 @@
         XDG_CURRENT_DESKTOP "niri"
         XDG_SESSION_TYPE "wayland"
         XDG_DATA_DIRS "~/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share"
-    }
+        GDK_BACKEND "wayland"
+        XCURSOR_SIZE "64"
+        XCURSOR_THEME "Firefly"
+}
 
     cursor {
-        xcursor-theme "capitaine-cursors"
-        xcursor-size 24
-    }
+      xcursor-theme "Firefly"
+      xcursor-size 64    
+      hide-when-typing
+      hide-after-inactive-ms 10000
+}
 
     debug {
         // Allows notification actions and window activation from Noctalia.
         honor-xdg-activation-with-invalid-serial
-    }
+}
 
     hotkey-overlay {
        skip-at-startup
-    }
+}
+
+blur {
+    passes 4        // Number of blur passes (higher = stronger/blurrier)
+    offset 1      // Sample distance per pass
+    noise 0.0      // Grain overlay (0.0-1.0)
+    saturation 1.0  // Color saturation (1.0 is neutral)
+}

@@ -2691,7 +2691,7 @@
       "Linter"
     ],
     "source": {
-      "id": "pkg:npm/%40commitlint/cli@20.5.2",
+      "id": "pkg:npm/%40commitlint/cli@20.5.3",
       "extra_packages": [
         "@commitlint/config-conventional",
         "commitlint-format-json"
@@ -3512,7 +3512,7 @@
       "DAP"
     ],
     "source": {
-      "id": "pkg:github/Dart-Code/Dart-Code@v3.132.0",
+      "id": "pkg:github/Dart-Code/Dart-Code@v3.134.0",
       "asset": {
         "file": "dart-code-{{ version | strip_prefix \"v\" }}.vsix"
       }
@@ -17265,7 +17265,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:github/tilt-dev/tilt@v0.37.2",
+      "id": "pkg:github/tilt-dev/tilt@v0.37.3",
       "asset": [
         {
           "target": "darwin_arm64",
@@ -17778,7 +17778,7 @@
       "LSP"
     ],
     "source": {
-      "id": "pkg:npm/@typescript/native-preview@7.0.0-dev.20260429.1"
+      "id": "pkg:npm/@typescript/native-preview@7.0.0-dev.20260430.1"
     },
     "bin": {
       "tsgo": "npm:tsgo"

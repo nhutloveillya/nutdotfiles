@@ -1,0 +1,69 @@
+    window-rule {
+        geometry-corner-radius 20 // Set every window radius to 20
+        clip-to-geometry true
+        draw-border-with-background false
+
+        //background eff
+        background-effect {
+        blur false
+        xray false
+    }
+
+        variable-refresh-rate true
+        //on-demand true
+}
+
+
+    // Cách tiếp cận chuẩn để chỉnh độ mờ cửa sổ trong Niri:
+    window-rule {
+        // Áp dụng cho cửa sổ không có tiêu điểm (Inactive)
+        match is-active=false
+        opacity 0.75
+}
+
+    window-rule {
+        // Áp dụng cho cửa sổ đang hoạt động (Active)
+        match is-active=true
+        opacity 0.95
+}
+
+     // if you use steam you will probably like these
+    window-rule {
+        match app-id="steam"
+        exclude title=r"^[Ss]team$"
+        open-floating true
+}
+
+    window-rule {
+    match title="VSCodium"
+    open-maximized true
+}
+
+  window-rule {
+    match app-id="firefox"
+    open-maximized true
+}
+    
+    window-rule {
+    match app-id="vesktop"
+    opacity 1.0
+}
+ 
+
+    window-rule {
+    match app-id="mpv"
+    open-maximized true
+    opacity 1.0
+}
+
+    window-rule {
+       match app-id="steam" title=r"^notificationtoasts_\d+_desktop$"
+       default-floating-position x=10 y=10 relative-to="bottom-right"
+       open-focused false
+}
+
+    layer-rule {
+        match namespace="^noctalia-wallpaper*"
+        place-within-backdrop true
+}
+

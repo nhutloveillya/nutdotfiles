@@ -293,13 +293,13 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "vibrant",
+        "generationMethod": "content",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
         "predefinedScheme": "Noctalia (default)",
         "schedulingMode": "off",
-        "syncGsettings": true,
+        "syncGsettings": false,
         "useWallpaperColors": true
     },
     "controlCenter": {
@@ -462,7 +462,7 @@
         "radiusRatio": 1.16,
         "reverseScroll": false,
         "scaleRatio": 1,
-        "screenRadiusRatio": 1.1,
+        "screenRadiusRatio": 0.87,
         "shadowDirection": "bottom_right",
         "shadowOffsetX": 2,
         "shadowOffsetY": 3,
@@ -722,7 +722,7 @@
         "fontDefaultScale": 1,
         "fontFixed": "MesloLGL Nerd Font",
         "fontFixedScale": 1,
-        "panelBackgroundOpacity": 0.78,
+        "panelBackgroundOpacity": 1,
         "panelsAttachedToBar": false,
         "scrollbarAlwaysVisible": true,
         "settingsPanelMode": "centered",
