@@ -16,6 +16,8 @@
 + .config/gtk-4.0**
 + .config/fastfetch**
 + .config/nvim**
++ .config/rmpc**
++ .config/mpd**
 + .local/share/fonts**
 + .local/share/nwng-look**
 + .local/share/nvim**
