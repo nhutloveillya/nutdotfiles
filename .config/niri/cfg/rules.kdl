@@ -10,7 +10,7 @@
     }
 
         variable-refresh-rate true
-        //on-demand true
+       // on-demand true
 }
 
 
@@ -42,6 +42,11 @@
   window-rule {
     match app-id="firefox"
     open-maximized true
+    
+    background-effect {
+        blur false
+      }
+
 }
     
     window-rule {

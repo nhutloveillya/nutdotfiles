@@ -31,8 +31,7 @@
 }
 
 blur {
-    passes 4        // Number of blur passes (higher = stronger/blurrier)
-    offset 1      // Sample distance per pass
-    noise 0.0      // Grain overlay (0.0-1.0)
-    saturation 1.0  // Color saturation (1.0 is neutral)
+  passes 3
+  noise 0
+  offset 2
 }

@@ -8,6 +8,7 @@ binds {
     Mod+S hotkey-overlay-title="Open Setting" { spawn-sh "qs -c noctalia-shell ipc call settings toggle"; }
     Mod+M hotkey-overlay-title="Open Control Center" { spawn-sh "qs -c noctalia-shell ipc call controlCenter toggle"; }
     Mod+E hotkey-overlay-title="File Manager: nemo" { spawn "nemo"; }
+    //Mod+N hotkey-overlay-title="Open Neovim" { spawn "neovim"; }
     Mod+F2 hotkey-overlay-title="Open wallcard" { spawn-sh "qs -c noctalia-shell ipc call plugin:wallcards toggle"; }
     XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call volume increase"; }
     XF86AudioLowerVolume allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call volume decrease"; }
