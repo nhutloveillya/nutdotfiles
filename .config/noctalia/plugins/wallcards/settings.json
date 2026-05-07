@@ -1,12 +1,12 @@
 {
   "animation_cards_duration": 750,
-  "animation_window_duration": 500,
+  "animation_window_duration": 700,
   "animate_window": true,
   "background_color": "#000000",
-  "background_opacity": 0,
+  "background_opacity": 0.2,
   "card_height": 400,
-  "card_spacing": 5,
-  "card_strip_width": 85,
+  "card_spacing": 7,
+  "card_strip_width": 95,
   "cards_shown": 9,
   "center_width_ratio": 0.36,
   "image_filter": [
@@ -18,11 +18,11 @@
     "mp4",
     "avi"
   ],
-  "hide_help": false,
+  "hide_help": true,
   "hide_top_bar": true,
   "live_preview": false,
   "selected_filter": "images",
-  "shear_factor": -0.25,
+  "shear_factor": -0.3,
   "top_bar_height": 35,
   "iconColor": "none",
   "directory": "/home/nhut/Ảnh/wallpaper"

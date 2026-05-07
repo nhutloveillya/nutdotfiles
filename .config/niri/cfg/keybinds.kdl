@@ -1,8 +1,8 @@
 binds {
     Mod+Slash { show-hotkey-overlay; }
     Mod+T hotkey-overlay-title="Open Terminal: kitty" { spawn "kitty"; }
-    Mod+Space hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
-    Mod+B hotkey-overlay-title="Open Browser: firefox" { spawn "firefox"; }
+    Menu hotkey-overlay-title="Open App Launcher: noctalia launcher" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
+    Mod+B hotkey-overlay-title="Open Browser: zen" { spawn "zen-browser"; }
     Mod+ALT+L hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
     Mod+Shift+ESCAPE hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
     Mod+S hotkey-overlay-title="Open Setting" { spawn-sh "qs -c noctalia-shell ipc call settings toggle"; }
@@ -101,6 +101,6 @@ binds {
     Mod+ESCAPE allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
     CTRL+ALT+Delete { quit; }
     Mod+Shift+P { power-off-monitors; }
-    Mod+X repeat=false { toggle-overview; }
+    Mod+Space repeat=false { toggle-overview; }
     Mod+Shift+DownArrow { move-window-down; }
 }

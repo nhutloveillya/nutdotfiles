@@ -5,7 +5,7 @@
 
         //background eff
         background-effect {
-        blur true
+        blur true 
         xray true
     }
 
@@ -39,13 +39,13 @@
     open-maximized true
 }
 
+    window-rule {
+    match app-id="btop++"
+    open-maximized true
+}
   window-rule {
     match app-id="firefox"
     open-maximized true
-    
-    background-effect {
-        blur false
-      }
 
 }
     
