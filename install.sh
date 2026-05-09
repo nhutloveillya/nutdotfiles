@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/sh
 sync() {
   rsync -av --progress --include-from='./ls.txt' -r ~/. ~/dotfiles/
 }
