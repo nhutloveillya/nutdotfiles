@@ -1633,7 +1633,7 @@ Callback to execute after applying a code action.
 
 ##### lsp_code_actions.context
 
-Type: `lsp.CodeActionContext`, Default: `nil`
+Type: `vim.lsp.buf.code_action.context`, Default: `nil`
 
 Code action context passed to the LSP server.
 
