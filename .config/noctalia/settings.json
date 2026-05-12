@@ -427,7 +427,7 @@
     "general": {
         "allowPanelsOnScreenWithoutBar": true,
         "allowPasswordWithFprintd": false,
-        "animationDisabled": true,
+        "animationDisabled": false,
         "animationSpeed": 1.07,
         "autoStartAuth": false,
         "avatarImage": "/home/nhut/.face",
@@ -499,7 +499,7 @@
         "screenUnlock": "",
         "session": "",
         "startup": "",
-        "wallpaperChange": "notify-send \"Đã đổi hình nền sang $1\""
+        "wallpaperChange": "notify-send \"Đã đổi hình nền sang $1\"  && paplay --volume=12000 ~/.local/share/sound/tuturu_1.mp3"
     },
     "idle": {
         "customCommands": "[]",
@@ -557,7 +557,7 @@
     "notifications": {
         "backgroundOpacity": 0.88,
         "clearDismissed": true,
-        "criticalUrgencyDuration": 15,
+        "criticalUrgencyDuration": 10,
         "density": "default",
         "enableBatteryToast": true,
         "enableKeyboardLayoutToast": true,
@@ -568,7 +568,7 @@
         "lowUrgencyDuration": 3,
         "monitors": [
         ],
-        "normalUrgencyDuration": 8,
+        "normalUrgencyDuration": 4,
         "overlayLayer": true,
         "respectExpireTimeout": false,
         "saveToHistory": {
@@ -581,9 +581,9 @@
             "enabled": true,
             "excludedApps": "discord,firefox,chrome,chromium,edge",
             "lowSoundFile": "",
-            "normalSoundFile": "",
+            "normalSoundFile": "/home/nhut/.local/share/sound/tuturu_1.mp3",
             "separateSounds": false,
-            "volume": 0.46
+            "volume": 0.36
         }
     },
     "osd": {
@@ -734,9 +734,9 @@
     },
     "ui": {
         "boxBorderEnabled": false,
-        "fontDefault": "Adwaita Sans",
+        "fontDefault": "Exo 2",
         "fontDefaultScale": 1,
-        "fontFixed": "MesloLGL Nerd Font",
+        "fontFixed": "MesloLGS Nerd Font",
         "fontFixedScale": 1,
         "panelBackgroundOpacity": 0.74,
         "panelsAttachedToBar": true,

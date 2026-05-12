@@ -31,4 +31,5 @@
 + .local/share/fonts**
 + .local/share/nwng-look**
 + .local/share/nvim**
++ .local/share/sound**
 - *
