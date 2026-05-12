@@ -23,7 +23,7 @@ case "$1" in
 --clone | -c)
   clone
   ;;
-* | -h | --help)
+-h | --help)
   helpp
   exit 0
   ;;
