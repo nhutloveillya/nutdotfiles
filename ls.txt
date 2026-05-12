@@ -2,7 +2,6 @@
 + .local
 + Pictures
 + Pictures/wallpaper
-+ .local/bin**
 + .local/share
 - memo-history.log
 - *.log
@@ -22,7 +21,8 @@
 + .config/fastfetch**
 + .config/nvim**
 + .config/rmpc**
-+ .config/mpd**
++ .config/mpd
++ mpd.conf
 + .config/zen/
 + *.ini
 + .config/zen/71t7sskm.pro
