@@ -3,7 +3,7 @@ sync() {
   rsync -av --progress --include-from='./ls.txt' -r ~/. ~/dotfiles/
 }
 clone() {
-  rsync -av --progress -r ~/dotfiles/. ~/
+  rsync -av --progress --exclude=.git/ --exclude=README.md --exclude=ls.txt --exclude=install.sh -r ~/dotfiles/. ~/
 }
 
 helpp() {
