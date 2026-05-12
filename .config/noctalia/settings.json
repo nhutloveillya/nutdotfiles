@@ -26,7 +26,8 @@
             "nvim",
             "mpv",
             "org.polymc.PolyMC",
-            "chromium"
+            "chromium",
+            "zen"
         ],
         "position": "bottom_center",
         "screenshotAnnotationTool": "",
@@ -34,7 +35,7 @@
         "showIconBackground": true,
         "sortByMostUsed": true,
         "terminalCommand": "kitty -e",
-        "viewMode": "list"
+        "viewMode": "grid"
     },
     "audio": {
         "mprisBlacklist": [
@@ -51,7 +52,7 @@
     "bar": {
         "autoHideDelay": 500,
         "autoShowDelay": 150,
-        "backgroundOpacity": 0,
+        "backgroundOpacity": 0.49,
         "barType": "floating",
         "capsuleColorKey": "none",
         "capsuleOpacity": 0.9400000000000001,
@@ -255,7 +256,7 @@
     },
     "colorSchemes": {
         "darkMode": true,
-        "generationMethod": "faithful",
+        "generationMethod": "vibrant",
         "manualSunrise": "06:30",
         "manualSunset": "18:30",
         "monitorForColors": "",
@@ -502,7 +503,7 @@
     },
     "idle": {
         "customCommands": "[]",
-        "enabled": false,
+        "enabled": true,
         "fadeDuration": 5,
         "lockCommand": "",
         "lockTimeout": 660,
@@ -537,7 +538,7 @@
         "bluetoothRssiPollIntervalMs": 60000,
         "bluetoothRssiPollingEnabled": false,
         "disableDiscoverability": false,
-        "networkPanelView": "wifi",
+        "networkPanelView": "ethernet",
         "wifiDetailsViewMode": "grid"
     },
     "nightLight": {

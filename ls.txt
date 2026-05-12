@@ -1,9 +1,14 @@
 + .config
 + .local
++ Pictures
++ Pictures/wallpaper
 + .local/bin**
 + .local/share
 - memo-history.log
 - *.log
+- *.git
+- *cache
++ Pictures/wallpaper/**
 + .config/cava**
 + .config/btop**
 + .config/kitty**
