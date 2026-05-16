@@ -27,6 +27,7 @@
 + .config/zen/
 + *.ini
 + .config/zen/71t7sskm.pro
++ chrome**
 + prefs.js
 + .local/share/fonts**
 + .local/share/nwng-look**
